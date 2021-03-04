@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <h1>BMI Calculator</h1>
+    <form action="/bmicalculator" method="post">
+      <input type="number" name="weight" placeholder="Your weight in Kg">
+      <input type="number" step="0.01" name="height" placeholder="Your height in m"> // step is to allow comma and dots as decimal
+      <button type="submit" name="submit">Calculate BMI</button>
+    </form>
+  </body>
+</html>
